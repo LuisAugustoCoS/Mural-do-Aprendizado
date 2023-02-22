@@ -1,0 +1,131 @@
+:root {
+    --corHead: #081a24;
+    --textHead: #20555b;
+    --textColor: #221e1d;
+    --textColorDois: #555356
+}
+
+.content {
+    width: 1024px;
+    margin: auto;
+}
+
+.header-top {
+    height: 3.125em;
+    background-color: var(--corHead);
+    position: relative;
+}
+
+.logo {
+    margin: .55em 0 0 9em;
+}
+
+.nav-header {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.nav-header li,
+.nav-header a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--textHead);
+    text-transform: uppercase;
+    font-size: .85em;
+    margin-right: 1.5em;
+    transition: all .15s ease-in-out;
+}
+
+.nav-header a:hover {
+    color: #fff;
+}
+
+.nav-header ul {
+    display: inline-block;
+    margin-top: 1.2em;
+}
+
+.galerry {
+    margin-top: 3em;
+    color: var(--textColorDois);
+}
+
+.galerry p {
+    line-height: 2;
+    text-align: center;
+}
+
+.galerry h1 {
+    text-align: center;
+    color: var(--textColor);
+}
+
+.galerry-cards {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 0 100px 50px 100px;
+}
+
+.galerry-cards-1 {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+
+.galerry-cards-1 h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: var(--textColor);
+}
+
+.galerry-cards P {
+    color: var(--textColorDois);
+}
+
+.about-us {
+    padding: 50px 100px 100px 100px;
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: #fff;
+    clear: left;
+}
+
+.about-us h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about-us p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+.contact {
+    margin: 50px;
+}
+
+address {
+    text-align: center;
+    color: #003d52;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    height: 50px;
+    background-color: var(--corHead);
+    text-align: center;
+    color: var(--textHead);
+    box-sizing: border-box;
+}
