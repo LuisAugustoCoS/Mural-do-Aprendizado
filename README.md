@@ -50,4 +50,33 @@ __2. Flexbox:__
 
 **Flex-flow**: abreviação do direction e do wrap 
 
+&ensp;
 __3. Grid Layout:__
+
+**Grid-column-start**: especifica a posição de um grid item dentro de uma grid-coluna.
+
+**Grid-column-end**: define onde terminiara a posição grid-item podem receber volores negativos.
+
+_span_ quantas colunas a frente merminara a posição do grid item. quando se usa é relativo ao end e ao start.
+
+**Grid-column**: e a abreviação dos itens anteriores. 
+
+**Grid-row-start**:tem a mesma função do grid-column-start porém em linha.
+
+**Grid-row-end**:tem a mesma função do grid-column-start porém em linha.
+
+**Grid-row**: e a abreviação dos itens anteriores. 
+
+**Grid-area**: abreviação de grid row e column começa row - column termina com row - column.
+
+_order_ é a ordem dos grid items , parecido com o z-index.
+
+**Grid-template-columns**: define o tamnho que sera a coluna e a quantidade  de colunas.
+grid-template-columns:100px 3em 40%
+**Grid-template-rows**: define o tamnho que sera a linhas e a quantidade  de colunas.
+grid-template-columns:100px 3em 40%
+
+_repeat_ define o quanto de linhas sera feito (5,12.5);
+_fr_ nova unidade introduzida junto ao grid.
+
+**grid-gap**: faz ter espaços entre as linhas e colunas;
